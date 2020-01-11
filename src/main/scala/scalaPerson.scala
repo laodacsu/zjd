@@ -11,7 +11,7 @@ object scalaPerson {
 class scalap2{
 //  若给属性设定null值，那么属性类型最好声明
   private var name : String = null
-//  下划线给属性，等同于null
+//  下划线给属性，等同于当前类型的默认初始值
 //  private var name : String = _
 
 
@@ -21,6 +21,10 @@ class scalap2{
 
   def getName():String = {
     return name
+  }
+
+  def main(args: Array[String]): Unit = {
+
   }
 
 }
